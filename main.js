@@ -10,8 +10,6 @@ ASSET_MANAGER.downloadAll(() => {
 
 	gameEngine.addEntity(new Link(gameEngine));
 
-	gameEngine.addEntity(new Link(gameEngine));
-
 	gameEngine.init(ctx);
 
 	gameEngine.start();
